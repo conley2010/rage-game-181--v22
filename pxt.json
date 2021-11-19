@@ -1,0 +1,40 @@
+{
+    "name": "Rage game 18.1   -V2",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "controller": "*",
+        "animation": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.1",
+        "darts": "*",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.1.0",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.1",
+        "sevenseg": "*",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.4.28",
+        "tag": "v1.4.28",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/9569656def042c35d28e981045e67afaa1feed7c",
+        "target": "1.7.16",
+        "pxt": "6.12.9",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
